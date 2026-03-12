@@ -57,8 +57,24 @@ else:
 print("---------------------------------------------------------------")
 ```
 ## Output :
+```
+Enter the mean inter arrival time of objects from Feeder (in secs): 12 
+Enter the mean  inter service time of Lathe Machine (in secs) :  4
+Enter the Additional time taken for the Robot (in secs) :  5
+--------------------------------------------------------------
+Single Server with Infinite Capacity - (M/M/1):(oo/FIFO)
+--------------------------------------------------------------
+The mean arrival rate per second : 0.08
+The mean service rate per second : 0.11
+Average number of objects in the system : 3.00
+Average number of objects in the conveyor :  2.25
+Average waiting time of an object in the system : 36.00 secs
+Average waiting time of an object in the conveyor : 27.00 secs
+Probability that the system is busy : 0.75
+Probability that the system is empty : 0.25
+---------------------------------------------------------------
+```
 
-![image](https://github.com/HIRU-VIRU/Single-server-infinite-capacity---Markov-Model/assets/145972122/4780355a-9445-4c3e-aaa6-ac654eaff2e6)
 
 ## Result :
 
